@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>We’re sorry</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2rem; line-height: 1.6; }
+    main { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .meta { color: #666; margin-bottom: 1.25rem; font-size: 0.95rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: #0b5fff; }
+    .card { background: rgba(127,127,127,0.08); padding: 1rem; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>I'm sorry</h1>
+    <p class="meta">Last updated: <span id="updated"></span></p>
+
+    <p> Bro Tera TAX ni bhargya gya hje takk ohde lyi dilo sorry. <strong>[TAX]</strong>. sorry <strong>[dorry]</strong>. I apologize.</p>
+
+    <script>
+      // shows today’s date as last updated
+      document.getElementById('updated').textContent = new Date().toLocaleDateString();
+    </script>
+  </main>
+</body>
+</html>
